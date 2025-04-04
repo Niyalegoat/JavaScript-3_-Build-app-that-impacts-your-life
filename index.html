@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sleep Tracker</h1>
+    <div id="sleep-input">
+        <label for="hours">Hours Slept:</label>
+        <input type="number" id="hours" min="0">
+        <button id="log-sleep">Log Sleep</button>
+    </div>
+    <div id="sleep-data">
+        <h2>Total Hours Slept: <span id="total-hours">0</span></h2>
+    </div>
+    <div id="status-message">
+        <p>Status: Ready to log sleep.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

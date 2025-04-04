@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#sleep-input {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1f4220;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#status-message p {
+    font-weight: bold;
+}
+
+.good-sleep {
+    color: pink;
+}
+
+.bad-sleep {
+    color: red;
+}
